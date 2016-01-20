@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="9531" systemVersion="15A279b" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ThoughtElevators" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thought Elevators" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DOr-Gi-3ni">
+                                <rect key="frame" x="429" y="20" width="1075" height="55"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USN-Av-TD2">
+                                <rect key="frame" x="429" y="273" width="527" height="86"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Anxiety and Stress Relief Video"/>
+                                <connections>
+                                    <action selector="anxietyButtonDidPress:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="m2J-ds-eEL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2gd-c5-Pfo">
+                                <rect key="frame" x="429" y="367" width="527" height="86"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Anxiety and Stress Relief Audio"/>
+                                <connections>
+                                    <action selector="anxietyAudioDidPress:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="5gK-lH-9dn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DeG-8D-LMc">
+                                <rect key="frame" x="429" y="86" width="527" height="86"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Accelerated Learning Video"/>
+                                <connections>
+                                    <action selector="learningVideoDidPress:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="qUR-2f-xfn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ALs-1b-Qo9">
+                                <rect key="frame" x="429" y="180" width="527" height="86"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Accelerated Learning Audio"/>
+                                <connections>
+                                    <action selector="learningAudioDidPress:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="FZI-XM-OcO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ts8-YW-Avb">
+                                <rect key="frame" x="429" y="644" width="527" height="86"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Energy Video"/>
+                                <connections>
+                                    <action selector="energyVideoDidPress:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="IO4-19-OhA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u6q-mK-57w">
+                                <rect key="frame" x="429" y="735" width="527" height="86"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Energy Audio"/>
+                                <connections>
+                                    <action selector="energyAudioDidPress:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="aUc-q0-ITz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7mM-QK-Qq6">
+                                <rect key="frame" x="429" y="462" width="527" height="86"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Business Success Video"/>
+                                <connections>
+                                    <action selector="BusinessVideoDidPress:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="Hdy-QZ-StS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7mR-MG-bae">
+                                <rect key="frame" x="429" y="553" width="527" height="86"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Business Success Audio"/>
+                                <connections>
+                                    <action selector="BusinessAudioDidPress:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="O9E-Jm-owJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xcd-Se-a4H">
+                                <rect key="frame" x="977" y="462" width="527" height="86"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Relationships Video"/>
+                                <connections>
+                                    <action selector="RelationshipsVideoDidPress:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="wni-Xk-4KJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JLj-Nd-uIo">
+                                <rect key="frame" x="977" y="553" width="527" height="86"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Relationships Audio"/>
+                                <connections>
+                                    <action selector="RelationshipsAudioDidPress:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="l6D-B5-846"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PcV-b5-Yak">
+                                <rect key="frame" x="977" y="644" width="527" height="86"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Wealth and Money Video"/>
+                                <connections>
+                                    <action selector="WealthVideoDidPress:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="l0c-ga-HE3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qq3-9L-u7I">
+                                <rect key="frame" x="977" y="273" width="527" height="86"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Perfect Health and Healing Video"/>
+                                <connections>
+                                    <action selector="PerfectVideoDidPress:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="OyD-nh-MHM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TRW-j0-DRE">
+                                <rect key="frame" x="977" y="367" width="527" height="86"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Perfect Health and Healing Audio"/>
+                                <connections>
+                                    <action selector="PerfectAudioDidPress:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="xu9-go-G9s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bNd-fA-oa1">
+                                <rect key="frame" x="977" y="86" width="527" height="86"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Ideal Weight Video"/>
+                                <connections>
+                                    <action selector="WeightVideoDidPress:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="tiK-IS-WfY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SdW-c6-qFZ">
+                                <rect key="frame" x="977" y="180" width="527" height="86"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Ideal Weight Audio"/>
+                                <connections>
+                                    <action selector="WeightAudioDidPress:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="CFg-iN-4xe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PYU-7a-the">
+                                <rect key="frame" x="429" y="824" width="527" height="86"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Ideal Partner Video"/>
+                                <connections>
+                                    <action selector="PartnerVideoDidPress:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="ZT1-gC-80p"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jNT-Zr-I3c">
+                                <rect key="frame" x="429" y="915" width="527" height="86"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Ideal Partner Audio"/>
+                                <connections>
+                                    <action selector="PartnerAudioDidPress:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="OUy-RU-bli"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QEF-8S-TWh">
+                                <rect key="frame" x="977" y="915" width="527" height="86"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Sleep Audio"/>
+                                <connections>
+                                    <action selector="SleepAudioDidPress:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="qrn-7h-pps"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Kr-mH-90l">
+                                <rect key="frame" x="977" y="735" width="527" height="86"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Wealth and Money Audio"/>
+                                <connections>
+                                    <action selector="WealthAudioDidPress:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="Zaw-JL-LBt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Oq-nB-a6b">
+                                <rect key="frame" x="977" y="824" width="527" height="86"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Thought Elevators Jingle"/>
+                                <connections>
+                                    <action selector="JingleAudioDidPress:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="h4t-5Z-ake"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="BusinessAudioButton" destination="7mR-MG-bae" id="TiT-Cb-7KX"/>
+                        <outlet property="BusinessButton" destination="7mM-QK-Qq6" id="61a-gH-QEk"/>
+                        <outlet property="EnergyAudioButton" destination="u6q-mK-57w" id="ihd-TC-3Zc"/>
+                        <outlet property="JingleAudioButton" destination="9Oq-nB-a6b" id="bm1-df-gxq"/>
+                        <outlet property="PartnerAudioButton" destination="jNT-Zr-I3c" id="7ea-1C-a7n"/>
+                        <outlet property="PartnerVideoButton" destination="PYU-7a-the" id="hiW-aW-Tuv"/>
+                        <outlet property="PerfectAudioButton" destination="TRW-j0-DRE" id="eI3-4e-YhQ"/>
+                        <outlet property="PerfectVideoButton" destination="qq3-9L-u7I" id="q4N-E7-Z2V"/>
+                        <outlet property="RelationshipsAudioButton" destination="JLj-Nd-uIo" id="pOf-Lt-kWG"/>
+                        <outlet property="RelationshipsButton" destination="Xcd-Se-a4H" id="wMD-Xi-Z5A"/>
+                        <outlet property="SleepAudioButton" destination="QEF-8S-TWh" id="aWf-i2-cMu"/>
+                        <outlet property="WealthAudioButton" destination="4Kr-mH-90l" id="hAO-lk-gIG"/>
+                        <outlet property="WealthVideoButton" destination="PcV-b5-Yak" id="eD2-UP-S2M"/>
+                        <outlet property="WeightAudioButton" destination="SdW-c6-qFZ" id="K0x-Dw-fkM"/>
+                        <outlet property="WeightVideoButton" destination="bNd-fA-oa1" id="Xkc-oS-xq1"/>
+                        <outlet property="anxietyAudio" destination="2gd-c5-Pfo" id="SDQ-Xw-nSx"/>
+                        <outlet property="anxietybutton" destination="USN-Av-TD2" id="HCj-du-mAa"/>
+                        <outlet property="energyButton" destination="Ts8-YW-Avb" id="e2U-JV-9vs"/>
+                        <outlet property="learningAudioButton" destination="ALs-1b-Qo9" id="3w9-OS-nlZ"/>
+                        <outlet property="learningButton" destination="DeG-8D-LMc" id="pX9-uS-Dcz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="235" y="39"/>
+        </scene>
+    </scenes>
+</document>

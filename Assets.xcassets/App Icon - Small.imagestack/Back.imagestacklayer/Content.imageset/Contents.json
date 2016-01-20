@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "idiom" : "tv",
+      "filename" : "Thought_Elevators_400x240.jpg",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
