@@ -6,7 +6,8 @@ Yhteenveto ja kuvaus käytetyistä tunneista:
 
 Kommentteja prosessista ja lopputuloksesta: Swift on yksinkertainen kieli ja olemme tyytyväisiä siihen mitä saimme rajoitetussa ajassa aikaan.
 
-Ehdotuksia jatkokehitykseen: 
+Ehdotuksia jatkokehitykseen:
+
 Muuta koodia käyttämään AVPlayerLayeriä, eli video tai audio avautuu erilliseen ViewControlleriin, jossa AVPlayerControls (eteen taakse stop pause volyymi exit) saatavilla.
 Graafiset assetit: Front, Middle, Back -ikonit käyttöön jotta aloitusikoni on 3D
 Graafiset assetit: Aloitusikoni + Top Shelf -grafiikka + appRunTime -logo kun appin käynnistää
