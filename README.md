@@ -1,5 +1,7 @@
 Tekijät: Tomi Boehm, Esa Ruoho
+
 Projektin nimi: Thought Elevators
+
 Yhteenveto ja kuvaus käytetyistä tunneista: 
 
 Kommentteja prosessista ja lopputuloksesta: Swift on yksinkertainen kieli ja olemme tyytyväisiä siihen mitä saimme rajoitetussa ajassa aikaan.
